@@ -369,12 +369,6 @@ if uploaded_file is not None:
                 """)
 
 
-       
-
-        st.caption(
-            f"Approval Confidence: {approval_probability:.2f}%"
-            )
-
         with tab4:
 
             st.header("TOPSIS Recommendation Engine")
