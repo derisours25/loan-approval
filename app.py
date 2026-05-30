@@ -369,9 +369,7 @@ if uploaded_file is not None:
                 """)
 
 
-        st.progress(
-            int(approval_probability)
-            )
+       
 
         st.caption(
             f"Approval Confidence: {approval_probability:.2f}%"
